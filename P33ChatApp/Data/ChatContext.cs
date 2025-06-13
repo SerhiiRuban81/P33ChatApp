@@ -11,6 +11,8 @@ namespace P33ChatApp.Data
     {
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Message> Messages { get; set; }
+
         public ChatContext(DbContextOptions<ChatContext> options) : base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
