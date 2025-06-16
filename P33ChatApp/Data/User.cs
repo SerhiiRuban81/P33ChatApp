@@ -21,5 +21,9 @@ namespace P33ChatApp.Data
         public int Port { get; set; }
 
         public bool IsActive { get; set; }
+
+        public ICollection<Chat>? Chats { get; set; }
+
+        public ICollection<Message>? Messages { get; set; }
     }
 }
