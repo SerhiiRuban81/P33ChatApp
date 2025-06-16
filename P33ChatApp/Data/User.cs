@@ -23,5 +23,7 @@ namespace P33ChatApp.Data
         public bool IsActive { get; set; }
 
         public ICollection<Chat>? Chats { get; set; }
+
+        public ICollection<Message>? Messages { get; set; }
     }
 }
