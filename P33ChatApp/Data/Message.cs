@@ -23,6 +23,6 @@ namespace P33ChatApp.Data
         public int? ChatId { get; set; }
         public Chat? Chat { get; set; } = default!;  
 
-        public DateTime time { get; set; } = DateTime.Now;
+        public DateTime Time { get; set; } = DateTime.Now;
     }
 }
