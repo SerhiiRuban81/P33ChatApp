@@ -13,5 +13,7 @@ namespace P33ChatApp.Data
         public string Name { get; set; } = default!;
 
         public ICollection<User>? Users { get; set; }
+
+        public ICollection<Message>? Messages { get; set; }
     }
 }

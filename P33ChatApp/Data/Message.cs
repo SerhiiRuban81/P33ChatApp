@@ -20,8 +20,8 @@ namespace P33ChatApp.Data
         public User Author { get; set; } = default!;
 
         [ForeignKey("Chat")]
-        public int? ChatId { get; set; }
-        public Chat? Chat { get; set; } = default!;  
+        public int ChatId { get; set; }
+        public Chat Chat { get; set; } = default!;  
 
         public DateTime Time { get; set; } = DateTime.Now;
     }
